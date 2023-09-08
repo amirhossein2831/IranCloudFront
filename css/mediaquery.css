@@ -1,27 +1,66 @@
 @media screen and (max-width: 450.98px) {
-   
+    html{
+        font-size: 50%;
+    }
+    .login{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 451px) and (max-width: 575.98px) {
-
+    html{
+        font-size: 62.5%;
+    }
+    .login{
+        width: 100%;
+    }
 }
 
 /* sm  */
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-
+    html{
+        font-size: 80%;
+    }
+    .login{
+        width: 100%;
+    }
 }
 
 /* md  */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
-
+    html{
+        font-size: 80%;
+    }
+    .login{
+        width: 80%;
+    }
 }
 
 /* lg  */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
-    
+    html{
+        font-size: 90%;
+    }
+    .login{
+        width: 80%;
+    }
 }
 
 /* xl  */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1350px) {
+    html{
+        font-size: 100%;
+    }
+    .login{
+        width: 80%;
+    }
+}
 
+@media screen and (min-width: 1351px) {
+    html{
+        font-size: 100%;
+    }
+    .login{
+        width: 60%;
+    }
 }
