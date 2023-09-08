@@ -5,6 +5,9 @@
     .login{
         width: 100%;
     }
+    .form-card{
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 451px) and (max-width: 575.98px) {
@@ -13,6 +16,9 @@
     }
     .login{
         width: 100%;
+    }
+    .form-card{
+        width: 70%;
     }
 }
 
@@ -24,6 +30,9 @@
     .login{
         width: 100%;
     }
+    .form-card{
+        width: 70%;
+    }
 }
 
 /* md  */
@@ -33,6 +42,18 @@
     }
     .login{
         width: 80%;
+    }
+    .form-card{
+        width: 70%;
+    }
+    .card-header p{
+        font-size: 80%;
+    }
+    .card-header li{
+        font-size: 70%;
+    }
+    .card-header small{
+        font-size: 65%;
     }
 }
 
@@ -44,6 +65,19 @@
     .login{
         width: 80%;
     }
+    .form-card{
+        width: 75%;
+    }
+    .card-header p{
+        font-size: 80%;
+    }
+    .card-header li{
+        font-size: 80%;
+    }
+    .card-header small{
+        font-size: 70%;
+
+    }
 }
 
 /* xl  */
@@ -53,6 +87,15 @@
     }
     .login{
         width: 80%;
+    }
+    .form-card{
+        width: 75%;
+    }
+    .card-header p{
+        font-size: 120%;
+    }
+    .card-header{
+        font-size: 80%;
     }
 }
 
