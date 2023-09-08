@@ -87,3 +87,16 @@ h2{
     margin-left: 5px;
     color: yellow;
 }
+
+.circle {
+    height: 5rem;
+    width: 10rem;
+    border-radius: 5rem 5rem 0 0;
+}
+
+.second-circle {
+    height: 4rem;
+    width: 7rem;
+    border-radius: 4rem 4rem 0 0;
+    background-color: rgb(250, 232, 154);
+}
