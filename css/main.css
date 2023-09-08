@@ -4,4 +4,13 @@
 
 html{
     font-size: 62.5%;
+    direction: rtl;
+}
+
+h1{
+    font-family: 'Vazirmatn-EB', sans-serif;
+}
+
+.login{
+    width: 50%;
 }
