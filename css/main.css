@@ -11,17 +11,39 @@ h1{
     font-family: 'Vazirmatn-EB', sans-serif;
 }
 
+
+h2{
+    font-family: 'Vazirmatn-EB', sans-serif;
+}
+
+
 .login{
     width: 50%;
 }
 
-.logo{
+.price-logo{
     background: url(./../resource/image/price2.png);
     background-position: center;
     background-size: 100% 100%;
 }
 
+
+.pay-logo{
+    background: url(./../resource/image/pay3.png);
+    background-size: 100% 100%;
+}
+
+
+
 .round{
     border-bottom-left-radius: 20% ;
     border-bottom-right-radius: 20%;
+}
+
+.lorem {
+    margin: 6rem 3rem;
+}
+
+.lorem p{
+    margin-bottom: 6rem;
 }
