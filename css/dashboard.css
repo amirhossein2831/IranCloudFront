@@ -66,3 +66,17 @@
     cursor: text;
 
 }
+
+.green-circle {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.dark-circle {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 50%;
+}
