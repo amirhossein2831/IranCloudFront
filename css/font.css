@@ -1,0 +1,19 @@
+/* Use Vazir Font  */
+
+/* Regular style */
+@font-face {
+    font-family: 'Vazirmatn-R';
+    src: url('./../font/Vazirmatn-Regular.woff2') format('woff2');
+}
+
+/* Bold style */
+@font-face {
+    font-family: 'Vazirmatn-B';
+    src: url('./../font/Vazirmatn-Bold.woff2') format('woff2');
+}
+
+/* ExtraBold style */
+@font-face {
+    font-family: 'Vazirmatn-ER';
+    src: url('./../font/Vazirmatn-ExtraBold.woff2') format('woff2');
+}
