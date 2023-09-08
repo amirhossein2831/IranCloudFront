@@ -5,3 +5,11 @@
 .text-second-muted{
     color: rgb(180, 152, 60);
 }
+
+.bg-gray{
+    background-color: rgb(224, 226, 226);
+}
+
+.text-ligthgray{
+    color: rgb(139, 137, 137);
+}
