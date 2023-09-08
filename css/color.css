@@ -22,3 +22,12 @@
 .text-ligthsecandray{
     color: rgb(199, 197, 197);
 }
+
+.text-new-warning{
+    color: rgb(255, 218, 52);
+}
+
+
+.bg-new-warning{
+    background-color: rgb(255, 218, 52);
+}
