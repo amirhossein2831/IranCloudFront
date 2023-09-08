@@ -8,6 +8,9 @@
     .form-card{
         width: 70%;
     }
+    #cart{
+        padding-bottom: 50px;
+    }
 
 }
 
@@ -20,6 +23,9 @@
     }
     .form-card{
         width: 70%;
+    }
+    #cart{
+        padding-top: 50px;
     }
    
 }
@@ -34,6 +40,9 @@
     }
     .form-card{
         width: 70%;
+    }
+    #cart{
+        padding-bottom: 50px;
     }
 }
 
@@ -56,6 +65,9 @@
     }
     .card-header small{
         font-size: 65%;
+    }
+    #cart{
+        padding-bottom: 50px;
     }
 }
 
@@ -80,6 +92,9 @@
         font-size: 70%;
 
     }
+    #cart{
+        padding-top: 100px;
+    }
 }
 
 /* xl  */
@@ -103,6 +118,9 @@
     .sidebar .sidebar-list{
         font-size: 75%;
     }   
+    #cart{
+        padding-top: 100px;
+    }
 }
 
 @media screen and (min-width: 1351px) {
@@ -111,5 +129,8 @@
     }
     .login{
         width: 60%;
+    }
+    #cart{
+        padding-top: 100px;
     }
 }
