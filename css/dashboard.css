@@ -52,3 +52,17 @@
 .detail-card{
     box-shadow: 0 0 30px goldenrod;
 }
+
+.active-task{
+    color: rgb(10, 172, 110);
+}
+
+.disable{
+    background-color: rgb(28, 26, 31);
+}
+
+.disable-link{
+    background-color: rgb(20, 19, 22);
+    cursor: text;
+
+}

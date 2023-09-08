@@ -15,7 +15,7 @@
 }
 
 .bg-ligthdark{
-    background-color: rgb(45, 46, 46);
+    background-color: rgb(22, 19, 26);
 
 }
 
@@ -31,6 +31,12 @@
 .bg-new-warning{
     background-color: rgb(255, 218, 52);
 }
+
 .bg-darker{
-    background: rgb(19, 18, 18);
+    background-color: rgb(15, 15, 19);
+}
+
+.bg-new-light{
+    background-color: rgba(255, 255, 255,0.2);
+
 }

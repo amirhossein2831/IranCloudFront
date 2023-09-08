@@ -8,6 +8,7 @@
     .form-card{
         width: 70%;
     }
+
 }
 
 @media screen and (min-width: 451px) and (max-width: 575.98px) {
@@ -20,6 +21,7 @@
     .form-card{
         width: 70%;
     }
+   
 }
 
 /* sm  */
@@ -97,12 +99,10 @@
     .card-header{
         font-size: 80%;
     }
-    .sidebar-list{
-    }
+ 
     .sidebar .sidebar-list{
         font-size: 75%;
     }   
-
 }
 
 @media screen and (min-width: 1351px) {

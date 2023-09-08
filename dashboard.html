@@ -26,7 +26,7 @@
     <!-- Nav bar -->
     <header>
         <div class="container-fluid">
-            <div class="row bg-ligthdark p-3">
+            <div class="row fixed-top bg-ligthdark p-3">
                 <div class="col-lg-6 col-xl-7">
                     <div class="row">
                         <div class="col-4">
@@ -34,7 +34,7 @@
                                 <i class="fas fa-cloud text-new-warning h2"></i>
                                 <h1 class="d-inline text-new-warning h2 me-2">ابرهای ایران</h1>
                             </span>
-                                <a class="d-xl-none text-decoration-none me-3" type="button" data-bs-toggle="offcanvas"
+                            <a class="d-xl-none text-decoration-none me-3" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasRight">
                                 <i class="fas fa-cloud text-new-warning h2"></i>
                                 <h1 class="d-inline text-new-warning h2 me-2">ابرهای ایران</h1>
@@ -76,58 +76,57 @@
 
     <!-- small SideBar  -->
     <section>
-        <div class="offcanvas offcanvas-end bg-ligthdark"id="offcanvasRight">
+        <div class="offcanvas offcanvas-end bg-ligthdark" id="offcanvasRight">
             <div class="offcanvas-body p-0">
-                    
-                    <div class="bg-new-warning d-flex flex-column justify-content-center align-items-center w-100"
-                        style="height: 25vh; border-bottom-left-radius: 30%">
+
+                <div class="bg-new-warning d-flex flex-column justify-content-center align-items-center w-100"
+                    style="height: 25vh; border-bottom-left-radius: 30%">
                     <div class="fixed-top me-2 mt-2">
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                    </div>    
-                       
-                        <div class="text-center">
-                            <img src="./resource/image/p1 (1).jpg" alt=""
-                                style="width: 8rem;height:8rem;border: 3px solid white; border-radius: 50%;display: block">
-                            <span class="d-block mt-3 h5">یاشار محمدی</span>
-                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
-                    <div class="d-flex flex-column mt-3 px-3 pt-3 gap-2 sidebar">
-
-                        <div class="py-3 mb-2 sidebar-list">
-                            <a href="#" class="text-decoration-none  text-new-warning">
-                                <i class="fas fa-home mx-4"></i>
-                                پیشخوان
-                            </a>
-                        </div>
-                        <div class="py-3 mb-2 sidebar-list current">
-                            <a href="#" class="text-decoration-none a-current">
-                                <i class="fas fa-egg mx-4"></i>
-                                دراپلت ها
-                            </a>
-                        </div>
-                        <div class="py-3 mb-2 sidebar-list">
-                            <a href="#" class="text-decoration-none   text-new-warning">
-                                <i class="fas fa-dollar-sign mx-4"></i>
-                                حساب مالی
-                            </a>
-                        </div>
-                        <div class="py-3 mb-2  sidebar-list">
-                            <a href="#" class="text-decoration-none   text-new-warning">
-                                <i class="fas fa-user mx-4"></i>
-                                پروفایل
-                            </a>
-                        </div>
-                        <div class="py-3 mb-2  sidebar-list">
-                            <a href="#" class="">
-                                <a href="#" class="text-decoration-none   text-new-warning">
-                                    <i class="fas fa-wallet mx-4"></i>
-                                    کیف پول
-                                </a>
-                            </a>
-                        </div>
+                    <div class="text-center">
+                        <img src="./resource/image/p1 (1).jpg" alt=""
+                            style="width: 8rem;height:8rem;border: 3px solid white; border-radius: 50%;display: block">
+                        <span class="d-block mt-3 h5">یاشار محمدی</span>
                     </div>
+                </div>
+
+                <div class="d-flex flex-column mt-3 px-3 pt-3 gap-2 sidebar">
+
+                    <div class="py-3 mb-2 sidebar-list">
+                        <a href="#" class="text-decoration-none  text-new-warning">
+                            <i class="fas fa-home mx-4"></i>
+                            پیشخوان
+                        </a>
+                    </div>
+                    <div class="py-3 mb-2 sidebar-list current">
+                        <a href="#" class="text-decoration-none a-current">
+                            <i class="fas fa-egg mx-4"></i>
+                            دراپلت ها
+                        </a>
+                    </div>
+                    <div class="py-3 mb-2 sidebar-list">
+                        <a href="#" class="text-decoration-none   text-new-warning">
+                            <i class="fas fa-dollar-sign mx-4"></i>
+                            حساب مالی
+                        </a>
+                    </div>
+                    <div class="py-3 mb-2  sidebar-list">
+                        <a href="#" class="text-decoration-none   text-new-warning">
+                            <i class="fas fa-user mx-4"></i>
+                            پروفایل
+                        </a>
+                    </div>
+                    <div class="py-3 mb-2  sidebar-list">
+                        <a href="#" class="">
+                            <a href="#" class="text-decoration-none   text-new-warning">
+                                <i class="fas fa-wallet mx-4"></i>
+                                کیف پول
+                            </a>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -138,11 +137,11 @@
         <div class="container-fluid ">
             <div class="row">
                 <!-- SideBar  -->
-                <div class="col-xl-2 d-none d-xl-inline bg-ligthdark px-0" style="height: 91.5vh;">
+                <div class="col-xl-2 d-none d-xl-inline bg-ligthdark px-0 fixed-top" style="height: 100vh;z-index: -1;">
                     <section>
-                        <div class="bg-new-warning d-flex justify-content-center align-items-center w-100"
-                            style="height: 25vh; border-bottom-left-radius: 30%">
-                            <div class="text-center">
+                        <div class="bg-new-warning d-flex justify-content-center align-items-end w-100"
+                            style="height: 38vh; border-bottom-left-radius: 30%">
+                            <div class="text-center mb-5">
                                 <img src="./resource/image/p1 (1).jpg" alt=""
                                     style="width: 8rem;height:8rem;border: 3px solid white; border-radius: 50%;display: block">
                                 <span class="d-block mt-3 h5">یاشار محمدی</span>
@@ -189,24 +188,248 @@
                 <!-- End of SideBar  -->
 
                 <!-- page content  -->
-                <div class="col-lg-8 col-xl-7">
+                <div class="col-lg-8 col-xl-7 me-auto" style="padding-top: 100px;">
                     <section>
-                        <div class="bg-darker p-5">
+                        <div class="bg-darker py-5 pe-md-3">
                             <span>
                                 <i class="fa fa-egg text-new-warning h2 d-inline ms-3"></i>
                                 <h3 class="text-new-warning d-inline h2">دراپلت های شما</h3>
                             </span>
+                            <div class="d-flex justify-content-between mt-4 w-100 bg-new-light rounded-2 ">
+                                <div class="p-4">
+                                    <span class="d-block bold text-white h5">افرانت</span>
+                                    <small class="text-secondary">َUbuntu 18.04 LTS</small>
+                                </div>
+                                <div class="text-center py-4">
+                                    <span class="d-block bold text-new-warning h5">5.122/12/132</span>
+                                    <small class="text-secondary">َادرس IP</small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۴Core <p class="d-inline text-secondary">
+                                            CPU</p></span>
+                                    <small class="text-white">َ۱۰GB/S <p class="d-inline text-secondary">Bandwidth</p>
+                                        </small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۸GB <p class="d-inline text-secondary">CPU
+                                        </p></span>
+                                    <small class="text-white">َ۱۲۰GB <p class="d-inline text-secondary">STORAGE</p>
+                                        </small>
+                                </div>
+                                <a href="" class="text-decoration-none bg-dark py-4 px-2 px-md-3 px-xl-5 rounded-start-2">
+                                    <div class="text-center">
+                                        <span class="d-block bold text-new-warning h5">مشاهده</span>
+                                        <small class="text-secondary">َ۲۰۰ تومان/دقیقه</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-between mt-4 w-100 bg-new-light rounded-2 ">
+                                <div class="p-4">
+                                    <span class="d-block bold text-white h5">اسیاتک</span>
+                                    <small class="text-secondary">َUbuntu 18.04 LTS</small>
+                                </div>
+                                <div class="text-center py-4">
+                                    <span class="d-block bold text-new-warning h5">5.122/12/132</span>
+                                    <small class="text-secondary">َادرس IP</small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۴Core <p class="d-inline text-secondary">
+                                            CPU</p></span>
+                                    <small class="text-white">َ۱۰GB/S <p class="d-inline text-secondary">Bandwidth</p>
+                                        </small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۸GB <p class="d-inline text-secondary">CPU
+                                        </p></span>
+                                    <small class="text-white">َ۱۲۰GB <p class="d-inline text-secondary">STORAGE</p>
+                                        </small>
+                                </div>
+                                <a href="" class="text-decoration-none bg-dark py-4 px-2 px-md-3 px-xl-5 rounded-start-2">
+                                    <div class="text-center">
+                                        <span class="d-block bold text-new-warning h5">مشاهده</span>
+                                        <small class="text-secondary">َ۲۰۰ تومان/دقیقه</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-between mt-4 w-100 bg-new-light rounded-2">
+                                <div class="p-4">
+                                    <span class="d-block bold text-white h5">افرانت</span>
+                                    <small class="text-secondary">َUbuntu 18.04 LTS</small>
+                                </div>
+                                <div class="text-center py-4">
+                                    <span class="d-block bold text-new-warning h5">5.122/12/132</span>
+                                    <small class="text-secondary">َادرس IP</small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۴Core <p class="d-inline text-secondary">
+                                            CPU</p></span>
+                                    <small class="text-white">َ۱۰GB/S <p class="d-inline text-secondary">Bandwidth</p>
+                                        </small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۸GB <p class="d-inline text-secondary">CPU
+                                        </p></span>
+                                    <small class="text-white">َ۱۲۰GB <p class="d-inline text-secondary">STORAGE</p>
+                                        </small>
+                                </div>
+                                <a href="" class="text-decoration-none bg-dark py-4 px-2 px-md-3 px-xl-5 rounded-start-2">
+                                    <div class="text-center">
+                                        <span class="d-block bold text-new-warning h5">مشاهده</span>
+                                        <small class="text-secondary">َ۲۰۰ تومان/دقیقه</small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="my-4 pe-md-3">
+                            <div class="d-flex justify-content-between mt-4 w-100 bg-new-light rounded-2 disable">
+                                <div class="p-4">
+                                    <span class="d-block bold text-white h5">افرانت</span>
+                                    <small class="text-secondary">َUbuntu 18.04 LTS</small>
+                                </div>
+                                <div class="text-center py-4">
+                                    <span class="d-block bold text-new-warning h5">5.122/12/132</span>
+                                    <small class="text-secondary">َادرس IP</small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۴Core <p class="d-inline text-secondary">
+                                            CPU</p></span>
+                                    <small class="text-white">َ۱۰GB/S <p class="d-inline text-secondary">Bandwidth</p>
+                                        </small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۸GB <p class="d-inline text-secondary">CPU
+                                        </p></span>
+                                    <small class="text-white">َ۱۲۰GB <p class="d-inline text-secondary">STORAGE</p>
+                                        </small>
+                                </div>
+                                <a href="" class="text-decoration-none py-4 px-2 px-md-3 px-xl-5 rounded-start-2 disable-link">
+                                    <div class="text-center">
+                                        <span class="d-block bold text-new-warning h5">مشاهده</span>
+                                        <small class="text-secondary">َ۲۰۰ تومان/دقیقه</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-between mt-4 w-100 bg-new-light rounded-2 disable">
+                                <div class="p-4">
+                                    <span class="d-block bold text-white h5">افرانت</span>
+                                    <small class="text-secondary">َUbuntu 18.04 LTS</small>
+                                </div>
+                                <div class="text-center py-4">
+                                    <span class="d-block bold text-new-warning h5">5.122/12/132</span>
+                                    <small class="text-secondary">َادرس IP</small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۴Core <p class="d-inline text-secondary">
+                                            CPU</p></span>
+                                    <small class="text-white">َ۱۰GB/S <p class="d-inline text-secondary">Bandwidth</p>
+                                        </small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۸GB <p class="d-inline text-secondary">CPU
+                                        </p></span>
+                                    <small class="text-white">َ۱۲۰GB <p class="d-inline text-secondary">STORAGE</p>
+                                        </small>
+                                </div>
+                                <a class="text-decoration-none py-4 px-2 px-md-3 px-xl-5 rounded-start-2 disable-link">
+                                    <div class="text-center">
+                                        <span class="d-block bold text-new-warning h5">مشاهده</span>
+                                        <small class="text-secondary">َ۲۰۰ تومان/دقیقه</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-between mt-4 w-100 bg-new-light rounded-2 disable">
+                                <div class="p-4">
+                                    <span class="d-block bold text-white h5">افرانت</span>
+                                    <small class="text-secondary">َUbuntu 18.04 LTS</small>
+                                </div>
+                                <div class="text-center py-4">
+                                    <span class="d-block bold text-new-warning h5">5.122/12/132</span>
+                                    <small class="text-secondary">َادرس IP</small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۴Core <p class="d-inline text-secondary">
+                                            CPU</p></span>
+                                    <small class="text-white">َ۱۰GB/S <p class="d-inline text-secondary">Bandwidth</p>
+                                        </small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۸GB <p class="d-inline text-secondary">CPU
+                                        </p></span>
+                                    <small class="text-white">َ۱۲۰GB <p class="d-inline text-secondary">STORAGE</p>
+                                        </small>
+                                </div>
+                                <a class="text-decoration-none py-4 px-2 px-md-3 px-xl-5 rounded-start-2 disable-link">
+                                    <div class="text-center">
+                                        <span class="d-block bold text-new-warning h5">مشاهده</span>
+                                        <small class="text-secondary">َ۲۰۰ تومان/دقیقه</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-between mt-4 w-100 bg-new-light rounded-2 disable">
+                                <div class="p-4">
+                                    <span class="d-block bold text-white h5">افرانت</span>
+                                    <small class="text-secondary">َUbuntu 18.04 LTS</small>
+                                </div>
+                                <div class="text-center py-4">
+                                    <span class="d-block bold text-new-warning h5">5.122/12/132</span>
+                                    <small class="text-secondary">َادرس IP</small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۴Core <p class="d-inline text-secondary">
+                                            CPU</p></span>
+                                    <small class="text-white">َ۱۰GB/S <p class="d-inline text-secondary">Bandwidth</p>
+                                        </small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۸GB <p class="d-inline text-secondary">CPU
+                                        </p></span>
+                                    <small class="text-white">َ۱۲۰GB <p class="d-inline text-secondary">STORAGE</p>
+                                        </small>
+                                </div>
+                                <a class="text-decoration-none py-4 px-2 px-md-3 px-xl-5 rounded-start-2 disable-link">
+                                    <div class="text-center">
+                                        <span class="d-block bold text-new-warning h5">مشاهده</span>
+                                        <small class="text-secondary">َ۲۰۰ تومان/دقیقه</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-between mt-4 w-100 bg-new-light rounded-2 disable">
+                                <div class="p-4">
+                                    <span class="d-block bold text-white h5">افرانت</span>
+                                    <small class="text-secondary">َUbuntu 18.04 LTS</small>
+                                </div>
+                                <div class="text-center py-4">
+                                    <span class="d-block bold text-new-warning h5">5.122/12/132</span>
+                                    <small class="text-secondary">َادرس IP</small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۴Core <p class="d-inline text-secondary">
+                                            CPU</p></span>
+                                    <small class="text-white">َ۱۰GB/S <p class="d-inline text-secondary">Bandwidth</p>
+                                        </small>
+                                </div>
+                                <div class="text-start py-4">
+                                    <span class="d-block bold text-white h5">۸GB <p class="d-inline text-secondary">CPU
+                                        </p></span>
+                                    <small class="text-white">َ۱۲۰GB <p class="d-inline text-secondary">STORAGE</p>
+                                        </small>
+                                </div>
+                                <a class="text-decoration-none py-4 px-2 px-md-3 px-xl-5 rounded-start-2 disable-link">
+                                    <div class="text-center">
+                                        <span class="d-block bold text-new-warning h5">مشاهده</span>
+                                        <small class="text-secondary">َ۲۰۰ تومان/دقیقه</small>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </section>
-                
-                  
                 </div>
                 <!-- End of page content  -->
 
                 <!-- Card  -->
-                <div class="col-lg-4 col-xl-3 bg-darker" style="height: 91.5vh;">
+                <div class="col-lg-4 col-xl-3 bg-darker" style="padding-top: 100px;">
                     <section>
-                        <div class="p-4">
+                        <div class="p-4 mt-4">
                             <div class="card w-10 border-1 border-warning detail-card">
                                 <div class="p-5 w-100 h-100 bg-new-warning d-flex flex-column gap-3 border-1">
                                     <div class="text-center text-muted ">
@@ -216,7 +439,7 @@
                                     </div>
                                     <div class="text-center text-muted">
                                         <h2 class="text-black">۱۹۲</h2>
-                                         ساعت تا پایان اعتبار 
+                                        ساعت تا پایان اعتبار
                                         <hr>
                                     </div>
                                     <div class="text-center text-muted">
@@ -227,10 +450,10 @@
                                 <div class="card-body p-0">
                                     <button class="btn btn-light py-3 w-100">
                                         <i class="fas fa-wallet ms-3"></i>
-                                        کیف پول 
+                                        کیف پول
                                     </button>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                     </section>
 
