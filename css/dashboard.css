@@ -17,3 +17,34 @@
     text-decoration: none;
     background-color: transparent;
 }
+
+.sidebar-list{
+    font-size: 1.3rem;
+    transition: background-color 0.5s;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.sidebar-list:hover{
+    background-color: rgb(78, 78, 78);
+}
+
+.current{
+    background-color: rgb(255, 218, 52);
+    border-radius: 3rem;
+    transform: translateX(-5px);
+    box-shadow: 0 20px 30px rgba(248, 248, 105, 0.4);
+    color: black;
+    transition: background-color 0.5s;
+}
+
+.a-current{
+    color: black ;
+    margin-right: 30px;
+}
+
+
+.current:hover{
+    background-color: rgb(255, 187, 0);
+
+}

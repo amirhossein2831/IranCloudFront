@@ -30,10 +30,15 @@
                 <div class="col-lg-6 col-xl-7">
                     <div class="row">
                         <div class="col-4">
-                            <span class="me-3">
+                            <span class="me-3 d-none d-xl-inline">
                                 <i class="fas fa-cloud text-new-warning h2"></i>
                                 <h1 class="d-inline text-new-warning h2 me-2">ابرهای ایران</h1>
                             </span>
+                                <a class="d-xl-none text-decoration-none me-3" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight">
+                                <i class="fas fa-cloud text-new-warning h2"></i>
+                                <h1 class="d-inline text-new-warning h2 me-2">ابرهای ایران</h1>
+                            </a>
                         </div>
                         <div class="col-8 mt-2 d-flex justify-content-end justify-content-lg-start  ">
                             <span class="">
@@ -69,14 +74,74 @@
     <!-- End of Nav bar  -->
 
 
+    <!-- small SideBar  -->
+    <section>
+        <div class="offcanvas offcanvas-end bg-ligthdark"id="offcanvasRight">
+            <div class="offcanvas-body p-0">
+                    
+                    <div class="bg-new-warning d-flex flex-column justify-content-center align-items-center w-100"
+                        style="height: 25vh; border-bottom-left-radius: 30%">
+                    <div class="fixed-top me-2 mt-2">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                    </div>    
+                       
+                        <div class="text-center">
+                            <img src="./resource/image/p1 (1).jpg" alt=""
+                                style="width: 8rem;height:8rem;border: 3px solid white; border-radius: 50%;display: block">
+                            <span class="d-block mt-3 h5">یاشار محمدی</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column mt-3 px-3 pt-3 gap-2 sidebar">
+
+                        <div class="py-3 mb-2 sidebar-list">
+                            <a href="#" class="text-decoration-none  text-new-warning">
+                                <i class="fas fa-home mx-4"></i>
+                                پیشخوان
+                            </a>
+                        </div>
+                        <div class="py-3 mb-2 sidebar-list current">
+                            <a href="#" class="text-decoration-none a-current">
+                                <i class="fas fa-egg mx-4"></i>
+                                دراپلت ها
+                            </a>
+                        </div>
+                        <div class="py-3 mb-2 sidebar-list">
+                            <a href="#" class="text-decoration-none   text-new-warning">
+                                <i class="fas fa-dollar-sign mx-4"></i>
+                                حساب مالی
+                            </a>
+                        </div>
+                        <div class="py-3 mb-2  sidebar-list">
+                            <a href="#" class="text-decoration-none   text-new-warning">
+                                <i class="fas fa-user mx-4"></i>
+                                پروفایل
+                            </a>
+                        </div>
+                        <div class="py-3 mb-2  sidebar-list">
+                            <a href="#" class="">
+                                <a href="#" class="text-decoration-none   text-new-warning">
+                                    <i class="fas fa-wallet mx-4"></i>
+                                    کیف پول
+                                </a>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of small SideBar  -->
+
     <main>
 
         <div class="container-fluid ">
             <div class="row">
-                <!-- side bar  -->
-                <div class="col-lg-2 bg-ligthdark px-0" style="height: 91.5vh;">
+                <!-- SideBar  -->
+                <div class="col-xl-2 d-none d-xl-inline bg-ligthdark px-0" style="height: 91.5vh;">
                     <section>
-                        <div class="bg-new-warning d-flex justify-content-center align-items-center w-100" style="height: 25vh; border-bottom-left-radius: 30%">
+                        <div class="bg-new-warning d-flex justify-content-center align-items-center w-100"
+                            style="height: 25vh; border-bottom-left-radius: 30%">
                             <div class="text-center">
                                 <img src="./resource/image/p1 (1).jpg" alt=""
                                     style="width: 8rem;height:8rem;border: 3px solid white; border-radius: 50%;display: block">
@@ -84,41 +149,36 @@
                             </div>
                         </div>
 
-                        <div class=" d-flex flex-column mt-3 px-3">
-                            <div class="pt-5">
-                                <a href="#" class="text-decoration-none   text-new-warning h4">
+                        <div class="d-flex flex-column mt-3 px-3 pt-3 gap-2 sidebar">
+
+                            <div class="py-3 mb-2 sidebar-list">
+                                <a href="#" class="text-decoration-none  text-new-warning">
                                     <i class="fas fa-home mx-4"></i>
                                     پیشخوان
                                 </a>
                             </div>
-                            <div class="py-5">
-                                <a href="#" class="">
-                                    <a href="#" class="text-decoration-none   text-new-warning h4">
-                                        <i class="fas fa-home mx-4"></i>
-                                        دراپلت
-                                    </a>
+                            <div class="py-3 mb-2 sidebar-list current">
+                                <a href="#" class="text-decoration-none a-current">
+                                    <i class="fas fa-egg mx-4"></i>
+                                    دراپلت ها
                                 </a>
                             </div>
-                            <div class="y-5">
-                                <a href="#" class="">
-                                    <a href="#" class="text-decoration-none   text-new-warning h4">
-                                        <i class="fas fa-home mx-4"></i>
-                                        حساب مالی
-                                    </a>
+                            <div class="py-3 mb-2 sidebar-list">
+                                <a href="#" class="text-decoration-none   text-new-warning">
+                                    <i class="fas fa-dollar-sign mx-4"></i>
+                                    حساب مالی
                                 </a>
                             </div>
-                            <div class="py-5">
-                                <a href="#" class="">
-                                    <a href="#" class="text-decoration-none   text-new-warning h4">
-                                        <i class="fas fa-home mx-4"></i>
-                                        پروفایل
-                                    </a>
+                            <div class="py-3 mb-2  sidebar-list">
+                                <a href="#" class="text-decoration-none   text-new-warning">
+                                    <i class="fas fa-user mx-4"></i>
+                                    پروفایل
                                 </a>
                             </div>
-                            <div class="pb-5">
+                            <div class="py-3 mb-2  sidebar-list">
                                 <a href="#" class="">
-                                    <a href="#" class="text-decoration-none   text-new-warning h4">
-                                        <i class="fas fa-home mx-4"></i>
+                                    <a href="#" class="text-decoration-none   text-new-warning">
+                                        <i class="fas fa-wallet mx-4"></i>
                                         کیف پول
                                     </a>
                                 </a>
@@ -126,14 +186,17 @@
                         </div>
                     </section>
                 </div>
-                <!-- End of side bar  -->
+                <!-- End of SideBar  -->
 
                 <!-- page content  -->
-                <div class="col-lg-8"></div>
+                <div class="col-9 col-xl-8">
+                
+                  
+                </div>
                 <!-- End of page content  -->
 
                 <!-- Card  -->
-                <div class="col-lg-2 bg-danger" style="height: 91.5vh;">
+                <div class="col-3 col-xl-2 bg-danger" style="height: 91.5vh;">
 
                 </div>
                 <!-- End of Card  -->
