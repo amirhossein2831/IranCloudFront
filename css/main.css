@@ -60,7 +60,6 @@ h2{
     border-right: 1px solid rgb(184, 184, 184);
 }
 
-
 .background-div {
     position: absolute;
     width: 100%;
@@ -99,4 +98,8 @@ h2{
     width: 7rem;
     border-radius: 4rem 4rem 0 0;
     background-color: rgb(250, 232, 154);
+}
+
+.create {
+    box-shadow: 0px 10px 10px rgba(250, 250, 133, 0.2);
 }
