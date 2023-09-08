@@ -48,3 +48,7 @@
     background-color: rgb(255, 187, 0);
 
 }
+
+.detail-card{
+    box-shadow: 0 0 30px goldenrod;
+}
