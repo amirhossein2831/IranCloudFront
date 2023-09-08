@@ -1,0 +1,19 @@
+
+.bold {
+    font-family: 'Vazirmatn-EB', sans-serif;
+
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+
+.btn-logout{
+    text-decoration: none;
+    background-color: transparent;
+}

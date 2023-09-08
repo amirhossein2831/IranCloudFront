@@ -13,3 +13,12 @@
 .text-ligthgray{
     color: rgb(139, 137, 137);
 }
+
+.bg-ligthdark{
+    background-color: rgb(45, 46, 46);
+
+}
+
+.text-ligthsecandray{
+    color: rgb(199, 197, 197);
+}
